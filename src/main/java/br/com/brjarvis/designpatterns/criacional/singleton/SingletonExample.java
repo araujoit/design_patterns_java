@@ -1,4 +1,4 @@
-package br.com.brjarvis.designpatterns.criacional;
+package br.com.brjarvis.designpatterns.criacional.singleton;
 
 /**
  * Constrói uma instância única para o projeto inteiro.
@@ -27,5 +27,12 @@ public class SingletonExample {
     @Override
     public String toString() {
         return "SingletonExample{}";
+    }
+
+    public static class TesteApp {
+        public static void main(String[] args) {
+            final SingletonExample instance = SingletonExample.getInstance();
+            System.out.println(instance);
+        }
     }
 }
