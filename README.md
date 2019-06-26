@@ -12,7 +12,7 @@ Lista de padrões “**Gof**” organizados nas suas famílias:
 * **Prototype**: permite você criar novas instancias simplesmente copiando instancias existentes;
 * **Factory Method**: as subclasses decidem quais classes concretas serão criadas.
 
-## Estruturais
+## Estrutural
 * **Decorator**: envelopa um objeto para fornecer novos comportamentos;
 * **Proxy**: envelopa um objeto para controlar o acesso a ele;
 * **FlyWeigth**: uma instancia de uma classe pode ser usada para fornecer muitas “instancias virtuais”;
