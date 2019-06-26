@@ -1,6 +1,8 @@
-package br.com.brjarvis.designpatterns.criacional;
+package br.com.brjarvis.designpatterns.criacional.prototype;
 
-import java.util.Random;
+import br.com.brjarvis.designpatterns.criacional.prototype.bean.Carro;
+import br.com.brjarvis.designpatterns.criacional.prototype.bean.Chevrolet;
+import br.com.brjarvis.designpatterns.criacional.prototype.bean.Ford;
 
 /**
  * <b>Prototype</b>
@@ -13,50 +15,6 @@ import java.util.Random;
  * @link https://www.devmedia.com.br/implementando-padroes-criacionais-em-java/34185
  */
 public class PrototypeExample {
-
-    public static abstract class Carro implements Cloneable {
-        public String nomeModelo;
-        public int preco;
-
-        public String getNomeModelo() {
-            return nomeModelo;
-        }
-
-        public static int setPreco() {
-            int preco = 0;
-            Random r = new Random();
-            int p = r.nextInt(100000);
-            preco = p;
-
-            return preco;
-        }
-
-        public Carro clone() throws CloneNotSupportedException {
-            return (Carro) super.clone();
-        }
-    }
-
-    public static class Ford extends Carro {
-        public Ford(String m) {
-            nomeModelo = m;
-        }
-
-        @Override
-        public Carro clone() throws CloneNotSupportedException {
-            return (Ford) super.clone();
-        }
-    }
-
-    public static class Chevrolet extends Carro {
-        public Chevrolet(String m) {
-            nomeModelo = m;
-        }
-
-        @Override
-        public Carro clone() throws CloneNotSupportedException {
-            return (Chevrolet) super.clone();
-        }
-    }
 
     public static void main(String[] args) throws CloneNotSupportedException {
         System.out.println("***Exemplo do padrão Prototype***\n");
