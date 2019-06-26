@@ -1,9 +1,5 @@
 package br.com.brjarvis.designpatterns.criacional.abstractfactory.factory;
 
-import br.com.brjarvis.designpatterns.criacional.abstractfactory.factory.AnimalFactory;
-import br.com.brjarvis.designpatterns.criacional.abstractfactory.factory.AbstractFactory;
-import br.com.brjarvis.designpatterns.criacional.abstractfactory.factory.ColorFactory;
-
 /**
  * Utilizado para instanciar implementações de Factory
  */

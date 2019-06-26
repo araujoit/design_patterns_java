@@ -1,7 +1,5 @@
 package br.com.brjarvis.designpatterns.criacional.abstractfactory.bean;
 
-import br.com.brjarvis.designpatterns.criacional.abstractfactory.bean.Animal;
-
 /**
  * Implementação de animal
  */

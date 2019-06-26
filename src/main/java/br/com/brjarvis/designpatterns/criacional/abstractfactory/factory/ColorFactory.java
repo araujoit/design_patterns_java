@@ -1,7 +1,5 @@
 package br.com.brjarvis.designpatterns.criacional.abstractfactory.factory;
 
-import br.com.brjarvis.designpatterns.criacional.abstractfactory.factory.AbstractFactory;
-
 import java.awt.*;
 
 /**

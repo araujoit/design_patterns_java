@@ -1,8 +1,8 @@
 package br.com.brjarvis.designpatterns.criacional.abstractfactory.factory;
 
+import br.com.brjarvis.designpatterns.criacional.abstractfactory.bean.Animal;
 import br.com.brjarvis.designpatterns.criacional.abstractfactory.bean.Dog;
 import br.com.brjarvis.designpatterns.criacional.abstractfactory.bean.Duck;
-import br.com.brjarvis.designpatterns.criacional.abstractfactory.bean.Animal;
 
 /**
  * Implementação de Factory

@@ -1,6 +1,5 @@
 package br.com.brjarvis.designpatterns.criacional.factory;
 
-import br.com.brjarvis.designpatterns.criacional.factory.FactoryPessoa;
 import br.com.brjarvis.designpatterns.criacional.factory.bean.Pessoa;
 
 /**
