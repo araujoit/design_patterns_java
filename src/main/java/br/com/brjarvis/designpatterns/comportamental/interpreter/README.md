@@ -10,7 +10,8 @@ Esse padrão é usado na análise SQL, no mecanismo de processamento de símbolo
 -----
 Este padrão se enquadra como:
 - [Padrão comportamental](https://github.com/araujoit/design_patterns#comportamental);
-- [Padrão de classes](https://github.com/araujoit/design_patterns#padr%C3%B5es-de-classe);
+- [Padrão de classe](https://github.com/araujoit/design_patterns#padr%C3%B5es-de-classe);
+- [Padrão de objetos](https://github.com/araujoit/design_patterns#padr%C3%B5es-de-objetos);
 -----
 
 #### Diagrama:

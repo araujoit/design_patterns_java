@@ -8,6 +8,7 @@ Suas subclasses podem sobrescrever a implementação do método conforme a neces
 -----
 Este padrão se enquadra como:
 - [Padrão comportamental](https://github.com/araujoit/design_patterns#comportamental);
+- [Padrão de classe](https://github.com/araujoit/design_patterns#padr%C3%B5es-de-classe);
 - [Padrão de objetos](https://github.com/araujoit/design_patterns#padr%C3%B5es-de-objetos);
 -----
 

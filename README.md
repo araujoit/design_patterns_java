@@ -5,21 +5,21 @@ Este repositório tem como finalidade apresentar e implementar os padrões de pr
 
 Lista de padrões “**Gof**” organizados nas suas famílias:
 
-## Criacional
-* **Singleton**: assegura que somente um objeto de uma determinada classe seja criado em todo o projeto;
-* **Abstract Factory**: permite que um cliente crie famílias de objetos sem especificar suas classes concretas;
-* **Builder**: encapsular a construção de um produto e permitir que ele seja construído em etapas;
-* **Prototype**: permite você criar novas instancias simplesmente copiando instancias existentes;
-* **Factory Method**: as subclasses decidem quais classes concretas serão criadas.
+## [Criacional](https://github.com/araujoit/design_patterns/tree/master/src/main/java/br/com/brjarvis/designpatterns/criacional)
+* **[Singleton](https://github.com/araujoit/design_patterns/tree/master/src/main/java/br/com/brjarvis/designpatterns/criacional/singleton)**: assegura que somente um objeto de uma determinada classe seja criado em todo o projeto;
+* **[Abstract Factory](https://github.com/araujoit/design_patterns/tree/master/src/main/java/br/com/brjarvis/designpatterns/criacional/abstractfactory)**: permite que um cliente crie famílias de objetos sem especificar suas classes concretas;
+* **[Builder](https://github.com/araujoit/design_patterns/tree/master/src/main/java/br/com/brjarvis/designpatterns/criacional/builder)**: encapsular a construção de um produto e permitir que ele seja construído em etapas;
+* **[Prototype](https://github.com/araujoit/design_patterns/tree/master/src/main/java/br/com/brjarvis/designpatterns/criacional/prototype)**: permite você criar novas instancias simplesmente copiando instancias existentes;
+* **[Factory Method](https://github.com/araujoit/design_patterns/tree/master/src/main/java/br/com/brjarvis/designpatterns/criacional/factory)**: as subclasses decidem quais classes concretas serão criadas.
 
-## Estrutural
-* **Decorator**: envelopa um objeto para fornecer novos comportamentos;
-* **Proxy**: envelopa um objeto para controlar o acesso a ele;
-* **FlyWeigth**: uma instancia de uma classe pode ser usada para fornecer muitas “instancias virtuais”;
-* **Facade**: simplifica a interface de um conjunto de classes;
-* **Composite**: Os clientes tratam as coleções de objetos e os objetos individuais de maneira uniforme;
-* **Bridge**: permite criar uma ponte para variar não apenas a sua implementação, como também as suas abstrações;
-* **Adapter**: envelopa um objeto e fornece a ele uma interface diferente;
+## [Estrutural](https://github.com/araujoit/design_patterns/tree/master/src/main/java/br/com/brjarvis/designpatterns/estrutural)
+* **[Decorator](https://github.com/araujoit/design_patterns/tree/master/src/main/java/br/com/brjarvis/designpatterns/estrutural/decorator)**: envelopa um objeto para fornecer novos comportamentos;
+* **[Proxy](https://github.com/araujoit/design_patterns/tree/master/src/main/java/br/com/brjarvis/designpatterns/estrutural/proxy)**: envelopa um objeto para controlar o acesso a ele;
+* **[FlyWeigth](https://github.com/araujoit/design_patterns/tree/master/src/main/java/br/com/brjarvis/designpatterns/estrutural/flyweigth)**: uma instancia de uma classe pode ser usada para fornecer muitas “instancias virtuais”;
+* **[Facade](https://github.com/araujoit/design_patterns/tree/master/src/main/java/br/com/brjarvis/designpatterns/estrutural/facade)**: simplifica a interface de um conjunto de classes;
+* **[Composite](https://github.com/araujoit/design_patterns/tree/master/src/main/java/br/com/brjarvis/designpatterns/estrutural/composite)**: Os clientes tratam as coleções de objetos e os objetos individuais de maneira uniforme;
+* **[Bridge]({https://github.com/araujoit/design_patterns/tree/master/src/main/java/br/com/brjarvis/designpatterns/estrutural/bridge)**: permite criar uma ponte para variar não apenas a sua implementação, como também as suas abstrações;
+* **[Adapter](https://github.com/araujoit/design_patterns/tree/master/src/main/java/br/com/brjarvis/designpatterns/estrutural/adapter)**: envelopa um objeto e fornece a ele uma interface diferente;
 
 ## [Comportamental](https://github.com/araujoit/design_patterns/tree/master/src/main/java/br/com/brjarvis/designpatterns/comportamental)
 * **[Template Method](https://github.com/araujoit/design_patterns/tree/master/src/main/java/br/com/brjarvis/designpatterns/comportamental/templatemethod)**: As subclasses decidem como implementar os passos de um algoritimo;
@@ -38,10 +38,10 @@ Os padrões freqüentemente são classificados com base num segundo atributo, se
 
 ## Padrões de classe
 Descrevem como as relações entre classes são definidas através da hereditariedade. As relações, nos padrões de classe, são estabelecidas no momento da compilação.
-* Factory Method;
-* Adapter;
-* Template Method;
-* Interpreter.
+* [Factory Method](https://github.com/araujoit/design_patterns/tree/master/src/main/java/br/com/brjarvis/designpatterns/criacional/factory)
+* [Adapter](https://github.com/araujoit/design_patterns/tree/master/src/main/java/br/com/brjarvis/designpatterns/estrutural/adapter)
+* [Template Method](https://github.com/araujoit/design_patterns/tree/master/src/main/java/br/com/brjarvis/designpatterns/comportamental/templatemethod)
+* [Interpreter](https://github.com/araujoit/design_patterns/tree/master/src/main/java/br/com/brjarvis/designpatterns/comportamental/interpreter)
 
 ## Padrões de objetos
 Descrevem os relacionamentos entre objetos e são definidos primariamente por composição. Os relacionamentos nos padrões de objetos normalmente são criados durante a execução e são muito mais dinâmicos e flexíveis.
