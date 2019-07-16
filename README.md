@@ -18,7 +18,7 @@ Lista de padrões “**Gof**” organizados nas suas famílias:
 * **[FlyWeigth](https://github.com/araujoit/design_patterns/tree/master/src/main/java/br/com/brjarvis/designpatterns/estrutural/flyweigth)**: uma instancia de uma classe pode ser usada para fornecer muitas “instancias virtuais”;
 * **[Facade](https://github.com/araujoit/design_patterns/tree/master/src/main/java/br/com/brjarvis/designpatterns/estrutural/facade)**: simplifica a interface de um conjunto de classes;
 * **[Composite](https://github.com/araujoit/design_patterns/tree/master/src/main/java/br/com/brjarvis/designpatterns/estrutural/composite)**: Os clientes tratam as coleções de objetos e os objetos individuais de maneira uniforme;
-* **[Bridge]({https://github.com/araujoit/design_patterns/tree/master/src/main/java/br/com/brjarvis/designpatterns/estrutural/bridge)**: permite criar uma ponte para variar não apenas a sua implementação, como também as suas abstrações;
+* **[Bridge](https://github.com/araujoit/design_patterns/tree/master/src/main/java/br/com/brjarvis/designpatterns/estrutural/bridge)**: permite criar uma ponte para variar não apenas a sua implementação, como também as suas abstrações;
 * **[Adapter](https://github.com/araujoit/design_patterns/tree/master/src/main/java/br/com/brjarvis/designpatterns/estrutural/adapter)**: envelopa um objeto e fornece a ele uma interface diferente;
 
 ## [Comportamental](https://github.com/araujoit/design_patterns/tree/master/src/main/java/br/com/brjarvis/designpatterns/comportamental)
